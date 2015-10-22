@@ -1,0 +1,21 @@
+class Team:
+
+  def __init__(self, name):
+    self.name = name
+  def is_good(self):
+    if self.name == "Broncos":
+          return False
+    return True
+
+
+denver = Team("Broncos")
+seattle = Team("Seahawks")
+
+if denver.is_good():
+  print "Champions"
+else:
+  print "Boo!"
+if seattle.is_good():
+  print "Champions"
+else:
+  print "Boo!"
